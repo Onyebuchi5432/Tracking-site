@@ -1,0 +1,1952 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=M+PLUS+1&family=Raleway:wght@100;200&family=Roboto+Condensed&family=Roboto+Slab:wght@300&family=Ubuntu&display=swap');
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: black
+}
+
+.text{
+    position: absolute;
+    left: 44%;
+    top: 20%;
+    font-size: 35px;
+    color: rgba(255, 192, 203, 0.767);
+    z-index: 10;
+}
+.enter{
+    position: absolute;
+    left: 47%;
+    top: 59%;
+    font-size: 25px;
+    border: 1px solid hsla(350, 100%, 88%, 0.884);
+    border-radius: 40px;
+    width: 135px;
+    height: 60px;
+    text-align: center;
+    background-color: hsla(350, 100%, 88%, 0.884);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: wheat;
+}
+.enter:hover{
+    background-color: rgba(207, 199, 193, 0.952);
+    color: whitesmoke;
+}
+.btn{
+    position: relative;
+    top: -18px;
+}
+.enter{
+    z-index: 10;
+}
+
+.image-1{
+    background-image: url(pexels-photo-6471430.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1320px;
+    height: 600px;
+    background-position: center;
+    transition: 0.7s;
+    transform: translate(130%);
+    z-index: -1;
+    position: absolute;
+    left: 2px;
+}
+.hide-image{
+    visibility: hidden;
+}
+.add-image{
+    transform: translate(0%);
+}
+.remove-image{
+    transform: translate(-120%);
+}
+
+.image-2{
+    background-image: url(pexels-photo-6542718.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1325px;
+    height: 600px;
+    background-position: center;
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    transition: 0.7s;
+    transform: translate(130%);
+    z-index: -1;   
+}
+.hide-image{
+    visibility: hidden;
+}
+.add-image{
+    transform: translate(0%);
+}
+.remove-image{
+    transform: translate(-120%);
+}
+
+.image-3{
+    background-image: url(pexels-photo-5938370.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1320px;
+    height: 600px;
+    background-position: center;
+    transition: 0.7s;
+    transform: translate(0%);
+    z-index: -1;
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    
+}
+.move-image{
+    transform: translate(100%);
+}
+.hide-image{
+    visibility: hidden;
+}
+
+.add-image{
+    transform: translate(0%);
+}
+.remove-image{
+    transform: translate(-120%);
+}
+
+@media screen and (min-width: 280px) and (max-width: 289px){
+    
+
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 108vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 155vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+
+@media screen and (min-width: 290px) and (max-width: 299px){
+    
+
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 112vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 155vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 310px){
+    
+
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 115vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 155vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+
+@media screen and (min-width: 311px) and (max-width: 321px){
+    
+
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 115vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 155vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+
+@media screen and (min-width: 322px) and (max-width: 328px){
+    
+
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 115vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 155vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+@media screen and (min-width: 329px) and (max-width: 335px){
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 115vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 155vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 336px) and (max-width: 342px){
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 115vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 155vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 343px) and (max-width: 349px){
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 115vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 155vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 353px){
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 125vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 158vw;
+        width: 280px;
+        height: 106px;
+        font-size: 75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 354px) and (max-width: 357px){
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 125vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 158vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 358px) and (max-width: 361px){
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 120vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 158vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 362px) and (max-width: 365px){
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 120vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 158vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 366px) and (max-width: 369px){
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 120vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 158vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 370px) and (max-width: 373px){
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 120vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 158vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 374px) and (max-width: 377px){
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 120vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 158vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+
+@media screen and (min-width: 378px) and (max-width: 381px){
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 120vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 158vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 382px) and (max-width: 385px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 120vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 158vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 386px) and (max-width: 389px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 120vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 158vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+
+@media screen and (min-width: 390px) and (max-width: 393px){
+    
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 117vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 154vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 394px) and (max-width: 397px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 116vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 154vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+
+@media screen and (min-width: 398px) and (max-width: 401px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 116vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 154vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 402px) and (max-width: 405px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 116vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 151vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+
+@media screen and (min-width: 406px) and (max-width: 409px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 113vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 149vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 410px) and (max-width: 413px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 113vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 149vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 417px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 113vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 147vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 418px) and (max-width: 421px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 113vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 260vh;
+        left: 149vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 422px) and (max-width: 425px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 107vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 260vh;
+        left: 144vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 429px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 109vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 260vh;
+        left: 140vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 430px) and (max-width: 433px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 106vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 260vh;
+        left: 142vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 434px) and (max-width: 437px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 107vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 255vh;
+        left: 141vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 438px) and (max-width: 441px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 107vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 250vh;
+        left: 141vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 442px) and (max-width: 445px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 105vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 250vh;
+        left: 140vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 446px) and (max-width: 450px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 103vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 250vh;
+        left: 137vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 455px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 101vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 250vh;
+        left: 134vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 456px) and (max-width: 460px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 101vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 250vh;
+        left: 134vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 461px) and (max-width: 465px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 101vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 250vh;
+        left: 131vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 466px) and (max-width: 470px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 98vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 250vh;
+        left: 131vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 471px) and (max-width: 475px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 98vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 250vh;
+        left: 131vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 476px) and (max-width: 480px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 94vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 250vh;
+        left: 127vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 485px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 94vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 250vh;
+        left: 124vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width: 486px) and (max-width: 490px){
+    .image-3{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 94vw;
+
+    }
+    .image-2{
+        height: 3680px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3680px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 250vh;
+        left: 124vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+
+@media screen and (width: 768px){
+    
+    .image-3{
+        height: 4050px;
+        background-size: 215%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 90px;
+        position: absolute;
+        left: 50vw;
+
+    }
+    .image-2{
+        height: 4050px;
+        background-size: 215%;
+
+    }
+    .image-1{
+        height: 4050px;
+        background-size: 215%;
+    }
+    .enter{
+        font-size: 80px;
+        position: absolute;
+        top: 1450px;
+        left: 530px;
+        width: 290px;
+        height: 120px;
+    }
+    .enter .btn{
+        position: absolute;
+        top: -97px;
+        left: 60px;
+
+    }    
+
+} 
+
+@media screen and (width: 820px){ 
+    .image-3{
+        height: 4050px;
+        background-size: 215%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 90px;
+        position: absolute;
+        left: 50vw;
+
+    }
+    .image-2{
+        height: 4050px;
+        background-size: 215%;
+
+    }
+    .image-1{
+        height: 4050px;
+        background-size: 215%;
+    }
+    .enter{
+        font-size: 80px;
+        position: absolute;
+        top: 1450px;
+        left: 519px;
+        width: 290px;
+        height: 120px;
+    }
+    .enter .btn{
+        position: absolute;
+        top: -97px;
+        left: 60px;
+
+    }    
+
+   }
+
+   @media screen and (width: 1024px){ 
+    .image-3{
+        height: 4050px;
+        background-size: 215%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 90px;
+        position: absolute;
+        left: 40vw;
+
+    }
+    .image-2{
+        height: 4050px;
+        background-size: 215%;
+
+    }
+    .image-1{
+        height: 4050px;
+        background-size: 215%;
+    }
+    .enter{
+        font-size: 80px;
+        position: absolute;
+        top: 1450px;
+        left: 530px;
+        width: 290px;
+        height: 120px;
+    }
+    .enter .btn{
+        position: absolute;
+        top: -97px;
+        left: 60px;
+
+    }    
+
+   }
+
+
+@media screen and (width: 912px){ 
+    .image-3{
+        height: 4050px;
+        background-size: 215%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 90px;
+        position: absolute;
+        left: 43vw;
+
+    }
+    .image-2{
+        height: 4050px;
+        background-size: 215%;
+
+    }
+    .image-1{
+        height: 4050px;
+        background-size: 215%;
+    }
+    .enter{
+        font-size: 80px;
+        position: absolute;
+        top: 1450px;
+        left: 524px;
+        width: 290px;
+        height: 120px;
+    }
+    .enter .btn{
+        position: absolute;
+        top: -97px;
+        left: 60px;
+
+    }    
+
+   }
+
+   @media screen and (width: 540px){
+    
+    .image-3{
+        height: 4050px;
+        background-size: 215%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 90px;
+        position: absolute;
+        left: 67vw;
+
+    }
+    .image-2{
+        height: 4050px;
+        background-size: 215%;
+
+    }
+    .image-1{
+        height: 4050px;
+        background-size: 215%;
+    }
+    .enter{
+        font-size: 80px;
+        position: absolute;
+        top: 1450px;
+        left: 530px;
+        width: 290px;
+        height: 120px;
+    }
+    .enter .btn{
+        position: absolute;
+        top: -97px;
+        left: 60px;
+
+    }    
+
+}
+
+@media screen and (width: 1024px) and (height: 600px){
+    
+    .image-3{
+        height: 1600px;
+        background-size: 220%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 47px;
+        position: absolute;
+        left: 50vw;
+        top: 140px;
+
+    }
+    .image-2{
+        height: 1600px;
+        background-size: 220%;
+
+    }
+    .image-1{
+        height: 1600px;
+        background-size: 220%;
+    }
+    .enter{
+        font-size: 40px;
+        position: absolute;
+        top: 450px;
+        left: 595px;
+        width: 125px;
+        height: 55px;
+    }
+    .enter .btn{
+        position: absolute;
+        top: -54px;
+        left: 22px;
+
+    }    
+
+}
+
+@media screen and (width: 1280px) and (height: 800px){
+    .image-1{
+        height: 1700px;
+        background-size: 120%;
+    }
+    .image-2{
+        height: 1700px;
+        background-size: 120%;
+    }
+    .image-3{
+        height: 1700px;
+        background-size: 120%;
+    }
+    
+}
+
+@media screen and (width: 280px) and (height: 653px){
+    .image-3{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .text{
+        color: rgba(255, 192, 203, 0.767);
+        font-size: 87px;
+        position: absolute;
+        left: 110vw;
+
+    }
+    .image-2{
+        height: 3860px;
+        background-size: 198%;
+
+    }
+    .image-1{
+        height: 3860px;
+        background-size: 198%;
+    }
+    .enter{
+        position: absolute;
+        top: 270vh;
+        left: 155vw;
+        width: 280px;
+        height: 106px;
+        font-size:75px;
+
+    }
+    .enter .btn{
+        position: absolute;
+        top: -90px;
+        left: 61px;
+    }
+}
+
+@media screen and (min-width:350px) and (max-width: 500px){
+    .image-1,.image-2,.image-3{
+        width: 1470px;
+    }
+}
+
